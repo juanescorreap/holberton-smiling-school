@@ -1,0 +1,44 @@
+.backgroundimage {
+    background-image: url("images/pic_1.jpg");
+}
+.nav-link {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.943rem;
+}
+#getschooled {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7.5rem;
+    line-height: 9.438rem;
+}
+#registerbutton {
+    width: 12rem;
+    height: 3rem;
+    background-color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+    color: white;
+    border-color: #C271FF ;
+}
+#textpurple {
+    color: #C271FF;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.514rem;
+}
+#learnfromthepros {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.514rem;
+}
+.profilesname {
+    font-size: 1.125rem;
+}
+.profilesquote, .profliesfooter{
+    font-size: 1rem;
+}
