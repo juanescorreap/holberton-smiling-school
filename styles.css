@@ -1,47 +1,157 @@
-.backgroundimage {
-    background-image: url("images/pic_1.jpg");
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.nav-link {
-    font-weight: 700;
-    font-size: 0.75rem;
-    line-height: 0.943rem;
+
+.coiny {
+    font-family: 'Coiny';
 }
-#getschooled {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 7.5rem;
-    line-height: 9.438rem;
+
+header {
+    background-image: url(images/pic_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#registerbutton {
-    width: 12rem;
-    height: 3rem;
-    background-color: #C271FF;
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1.1rem;
-    color: white;
-    border-color: #C271FF ;
+
+.pricing-header {
+    background-image: url(images/pic_2.jpg);
 }
-#textpurple {
-    color: #C271FF;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.514rem;
+
+.text-responsive {
+    font-size: 10vw;
 }
-#learnfromthepros {
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
-    font-size: 2rem;
-    line-height: 2.514rem;
+
+.black-bg {
+    background-color: #071629;
 }
-.profilesname {
-    font-size: 1.125rem;
+
+.gray-bg {
+    background-color: #979797;
 }
-.profilesquote, .profliesfooter{
-    font-size: 1rem;
+
+.purple-bg {
+    background-color: #c271ff;
 }
-#carouselcontainer {
-    background-color: #C271FF;
+
+.purple-text {
+    color: #c271ff;
+}
+
+.lightpurple-bg {
+    background-color: #d195ff;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-44 {
+    font-size: 44px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.holberton_school-icon-arrow_3,
+.holberton_school-icon-arrow_4 {
+    font-size: 5rem;
+}
+
+.holberton_school-icon-check {
+    font-size: 30px;
+    color: #82d24f;
+}
+
+.arrow-black {
+    color: #000000;
+}
+
+.video-card {
+    width: 255px;
+    height: 335px;
+}
+
+.play-img {
+    margin: -110px 0 40px 85px;
+}
+
+[class^='holberton_school-icon-ic'] {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.opacity-35 {
+    opacity: 0.35;
+}
+
+.underline:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #ffffff;
+    bottom: 5px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-courses:after {
+    width: 64px;
+}
+
+.ul-pricing:after {
+    width: 55px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-spacing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.search-form {
+    height: 50px;
+}
+
+.search-form:focus {
+    background-color: #d195ff;
+}
+
+.search-form::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.icon-bg {
+    background-color: #d195ff;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-style: rounded;
 }
